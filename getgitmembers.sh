@@ -9,3 +9,6 @@ then
 	usercount=`cat $OUTPUTFILE |grep member |wc -l`
 	echo $usercount
 fi
+
+# https://bluepages.ibm.com/tools/groups/groupsxml.wss?task=listMembers&group=ww-murally"
+# https://bluepages.ibm.com/tools/groups/groupsxml.wss?task=listMembers&group=ww-slack"
